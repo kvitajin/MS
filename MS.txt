@@ -1,0 +1,67 @@
+1) 
+Do jake skupiny patri bluetooth
+ - odpoved byla PAN (Personal Area Network) (4b)
+ - 802.15.1, 2.4GHz, FHSS, bezdrátová komunikace, dosah 1-100 metrù, rychlost pøenosu a 24Mbit/s
+
+2) 
+Jaky typ site by si pouzil, kdyby si doma mel soustavu, ktera by hlidala ze kdyz si doma tak bude svitit svetlo, 
+hrat hudba atd a kdyz odejdes tak se vsechno vypne. - byly tam moznosti jako: (4b)
+bezdratovì - toto by asi jakoby moná urèitì šlo, dál neviem uš
+nomadicity
+seamless mobility
+vsudypritomne 
+
+3) 
+Dalsi byly tøi vìci ohledne navigace a 2-3 vety popsat: (6b)
+Cell of origin  - Zjišuje polohu volajícího
+		- Fáze 1 u 911 v US 
+		- Najde polohu do 3 vteøin
+
+Timing advance - v GSM sítích
+	       - Èas za jakı signál dosáhne base station z mobilního zaøízení
+	       - Lze tím zjistit vzdálenost mobilního zaøízení od base station
+
+Angle of arrival - k lokalizaci odesílatele, k detekci vojenskıch pøenosù
+		 - metoda pro urèení smìru šíøení radiovıch frekvencí na poli antén
+		 - Poèítá na základì rùznıch zpodìní k urèitım anténám.
+
+4) 
+Mas webove stranky a jak bys zajistil aby byly i pri slabe konektivite aktualni, 
+a klienti meli co nejlepší pøístup (12b)
+- pokud má server slabou konektivitu tak se nedá dìlat nic moc, leda optimalizovat obsah atd.
+- pokud má klient slabou konektivitu, tak posílat co nejménì dat, tzn. vyuití cachingu 
+(cache uloené u klienta, pamatují si co bylo staeno, tím zrychlují komunikaci) 
+Objekt se tak stáhne jen jednou a pouije vícekrát
+
+5) 
+Nejake standarty ohledne 802.11, bluetooth a WiMax myslim 
+- prirazovat tyhle technologie k jednotlivym zadanym vecem. Uz si nepamatuju co tam bylo (5b)
+	802.11 (kolikrát ještì nás budou testovat na tento standard?)- 	Wi-Fi standard, WLAN
+		- b,g 2,4 GHz, a 5 GHz (54 Mb/s), n 2,4 nebo 5 GHz
+		- Nevím co tam mue byt
+	Bluetooth viz otázka 1
+	
+	WiMax - 802.16, Worldwide Interoperability for Microwave Access
+	      - Standard pro bezdrátovou distribuci dat zamìøenı na venkovní sítì.
+	      - Mùe poskytovat pøipojení k Internetu v domácnosti nebo na mobilním telefonu pøes celá mìsta nebo zemì
+	      - Tìko øíct co o tom víc nutnì vìdìt
+
+6) 
+Popsat v Mipv4 ty jednotlivé uzly. Take home agent, foreigh agent a mobile node. na prikladu a nebo je jednotlive popsat (8b)
+	Home agent - uchovává informace o mobilních uzlech, jejich permanentní domácí adresa je v síti home agenta.		   - 
+	Foreign agent - uchovává informace o mobilních uzlech navštìvující sí.
+	Mobile node - má dvì adresy: home a care-of adresu, která je asociována se sítí, kterou mobile node navštìvuje
+		    - je zodpovìdnı za zjištìní, zda je pøipojen k domácí síti nebo se pøesunul do foreign.
+Nevím moc to nepobírám
+Lepší asi nakreslit tohle: https://www.cisco.com/c/dam/en/us/td/i/000001-100000/50001-55000/53001-53500/53031.ps/_jcr_content/renditions/53031.jpg
+
+7) 
+Je fukušima a pomoci jake technologie hlidat radiaci a pri unikach kontaktovat nejake ty stanice ktere to maji na starost. 
+Proste vzdalene to hlidat.Popsat technologii ktera se k tomu nejvice hodi. Byly to podle mì senzorové sítì (10b)
+
+8) 
+Jaky model mobility by si pouzil aby si zajistil, ze bude na te siti fungovat replikace, v pripade nedosazitelnosti serveru aby server
+prehodil svou funkcionalitu na jineho klienta treba a takove vychytavky :) (8b)
+
+9) 
+Byla nejaka bonusova jak by si vylepsil cvika nebo prednasky :) Nad minimum se pricetly 3 body :)
